@@ -1,0 +1,85 @@
+/*
+ 	theme-title: Catppuccin {{THEME}} {{ACCENT}}
+	theme-description: Soothing pastel theme for the high spirited
+*/
+
+@import url('./catppuccin.css');
+
+:root {
+	--blue1: var(--ctp-{{THEME}}-{{ACCENT}});
+	--blue2: var(--ctp-{{THEME}}-{{ACCENT}});
+	--blue3: var(--ctp-{{THEME}}-{{ACCENT}});
+	--orange1: var(--ctp-{{THEME}}-{{ACCENT}});
+	--orange2: var(--ctp-{{THEME}}-{{ACCENT}});
+
+	--gray1: var(--ctp-{{THEME}}-surface0);
+	--gray2: var(--ctp-{{THEME}}-surface0);
+	--gray3: var(--ctp-{{THEME}}-surface1);
+
+	--bg: var(--ctp-{{THEME}}-base);
+	--bg-accent: var(--ctp-{{THEME}}-surface0);
+	--fg: var(--ctp-{{THEME}}-text);
+	--fg-reduced: var(--ctp-{{THEME}}-text);
+
+	--profile-bg: var(--ctp-{{THEME}}-surface1);
+	--status-bg: var(--ctp-{{THEME}}-surface1);
+	--status-focus-bg: var(--ctp-{{THEME}}-surface1);
+	--status-info-bg: var(--ctp-{{THEME}}-surface2);
+	--status-focus-ingo-bg: var(--ctp-{{THEME}}-surface2);
+
+	--button-fg: var(--ctp-{{THEME}}-crust);
+
+	--boxshadow-border: 0.1rem solid var(--ctp-{{THEME}}-mantle);
+}
+
+.profile .profile-header {
+	border: var(--box-shadow-border);
+}
+
+.profile .profile-header .basic-info .namerole .role {
+	border: var(--box-shadow-border);
+}
+
+.profile .col-header {
+	border: var(--boxshadow-border);
+}
+
+.profile .about-user .col-header {
+	margin-bottom: initial;
+	border-bottom: none;
+	border-top: var(--boxshadow-border);
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .fields {
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .fields .field {
+	border-bottom: 0.1rem solid var(--ctp-{{THEME}}-mantle);
+}
+
+.profile .about-user .fields .field:first-child {
+	border-top: 0.1rem solid var(--ctp-{{THEME}}-mantle);
+}
+
+.profile .about-user .bio {
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .accountstats {
+	border-top: 1px solid var(--ctp-{{THEME}}-mantle);
+	border-bottom: var(--boxshadow-border);
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.status .media .media-wrapper {
+	border: 0.1rem solid var(--ctp-{{THEME}}-mantle);
+}
+.status .media .media-wrapper details .unknown-attachment .placeholder {
+	color: var(--ctp-{{THEME}}-crust);
+}

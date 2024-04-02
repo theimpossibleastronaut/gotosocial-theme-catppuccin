@@ -1,0 +1,85 @@
+/*
+ 	theme-title: Catppuccin frappe flamingo
+	theme-description: Soothing pastel theme for the high spirited
+*/
+
+@import url('./catppuccin.css');
+
+:root {
+	--blue1: var(--ctp-frappe-flamingo);
+	--blue2: var(--ctp-frappe-flamingo);
+	--blue3: var(--ctp-frappe-flamingo);
+	--orange1: var(--ctp-frappe-flamingo);
+	--orange2: var(--ctp-frappe-flamingo);
+
+	--gray1: var(--ctp-frappe-surface0);
+	--gray2: var(--ctp-frappe-surface0);
+	--gray3: var(--ctp-frappe-surface1);
+
+	--bg: var(--ctp-frappe-base);
+	--bg-accent: var(--ctp-frappe-surface0);
+	--fg: var(--ctp-frappe-text);
+	--fg-reduced: var(--ctp-frappe-text);
+
+	--profile-bg: var(--ctp-frappe-surface1);
+	--status-bg: var(--ctp-frappe-surface1);
+	--status-focus-bg: var(--ctp-frappe-surface1);
+	--status-info-bg: var(--ctp-frappe-surface2);
+	--status-focus-ingo-bg: var(--ctp-frappe-surface2);
+
+	--button-fg: var(--ctp-frappe-crust);
+
+	--boxshadow-border: 0.1rem solid var(--ctp-frappe-mantle);
+}
+
+.profile .profile-header {
+	border: var(--box-shadow-border);
+}
+
+.profile .profile-header .basic-info .namerole .role {
+	border: var(--box-shadow-border);
+}
+
+.profile .col-header {
+	border: var(--boxshadow-border);
+}
+
+.profile .about-user .col-header {
+	margin-bottom: initial;
+	border-bottom: none;
+	border-top: var(--boxshadow-border);
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .fields {
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .fields .field {
+	border-bottom: 0.1rem solid var(--ctp-frappe-mantle);
+}
+
+.profile .about-user .fields .field:first-child {
+	border-top: 0.1rem solid var(--ctp-frappe-mantle);
+}
+
+.profile .about-user .bio {
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .accountstats {
+	border-top: 1px solid var(--ctp-frappe-mantle);
+	border-bottom: var(--boxshadow-border);
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.status .media .media-wrapper {
+	border: 0.1rem solid var(--ctp-frappe-mantle);
+}
+.status .media .media-wrapper details .unknown-attachment .placeholder {
+	color: var(--ctp-frappe-crust);
+}

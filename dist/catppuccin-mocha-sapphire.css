@@ -1,0 +1,85 @@
+/*
+ 	theme-title: Catppuccin mocha sapphire
+	theme-description: Soothing pastel theme for the high spirited
+*/
+
+@import url('./catppuccin.css');
+
+:root {
+	--blue1: var(--ctp-mocha-sapphire);
+	--blue2: var(--ctp-mocha-sapphire);
+	--blue3: var(--ctp-mocha-sapphire);
+	--orange1: var(--ctp-mocha-sapphire);
+	--orange2: var(--ctp-mocha-sapphire);
+
+	--gray1: var(--ctp-mocha-surface0);
+	--gray2: var(--ctp-mocha-surface0);
+	--gray3: var(--ctp-mocha-surface1);
+
+	--bg: var(--ctp-mocha-base);
+	--bg-accent: var(--ctp-mocha-surface0);
+	--fg: var(--ctp-mocha-text);
+	--fg-reduced: var(--ctp-mocha-text);
+
+	--profile-bg: var(--ctp-mocha-surface1);
+	--status-bg: var(--ctp-mocha-surface1);
+	--status-focus-bg: var(--ctp-mocha-surface1);
+	--status-info-bg: var(--ctp-mocha-surface2);
+	--status-focus-ingo-bg: var(--ctp-mocha-surface2);
+
+	--button-fg: var(--ctp-mocha-crust);
+
+	--boxshadow-border: 0.1rem solid var(--ctp-mocha-mantle);
+}
+
+.profile .profile-header {
+	border: var(--box-shadow-border);
+}
+
+.profile .profile-header .basic-info .namerole .role {
+	border: var(--box-shadow-border);
+}
+
+.profile .col-header {
+	border: var(--boxshadow-border);
+}
+
+.profile .about-user .col-header {
+	margin-bottom: initial;
+	border-bottom: none;
+	border-top: var(--boxshadow-border);
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .fields {
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .fields .field {
+	border-bottom: 0.1rem solid var(--ctp-mocha-mantle);
+}
+
+.profile .about-user .fields .field:first-child {
+	border-top: 0.1rem solid var(--ctp-mocha-mantle);
+}
+
+.profile .about-user .bio {
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .accountstats {
+	border-top: 1px solid var(--ctp-mocha-mantle);
+	border-bottom: var(--boxshadow-border);
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.status .media .media-wrapper {
+	border: 0.1rem solid var(--ctp-mocha-mantle);
+}
+.status .media .media-wrapper details .unknown-attachment .placeholder {
+	color: var(--ctp-mocha-crust);
+}

@@ -1,0 +1,85 @@
+/*
+ 	theme-title: Catppuccin macchiato sapphire
+	theme-description: Soothing pastel theme for the high spirited
+*/
+
+@import url('./catppuccin.css');
+
+:root {
+	--blue1: var(--ctp-macchiato-sapphire);
+	--blue2: var(--ctp-macchiato-sapphire);
+	--blue3: var(--ctp-macchiato-sapphire);
+	--orange1: var(--ctp-macchiato-sapphire);
+	--orange2: var(--ctp-macchiato-sapphire);
+
+	--gray1: var(--ctp-macchiato-surface0);
+	--gray2: var(--ctp-macchiato-surface0);
+	--gray3: var(--ctp-macchiato-surface1);
+
+	--bg: var(--ctp-macchiato-base);
+	--bg-accent: var(--ctp-macchiato-surface0);
+	--fg: var(--ctp-macchiato-text);
+	--fg-reduced: var(--ctp-macchiato-text);
+
+	--profile-bg: var(--ctp-macchiato-surface1);
+	--status-bg: var(--ctp-macchiato-surface1);
+	--status-focus-bg: var(--ctp-macchiato-surface1);
+	--status-info-bg: var(--ctp-macchiato-surface2);
+	--status-focus-ingo-bg: var(--ctp-macchiato-surface2);
+
+	--button-fg: var(--ctp-macchiato-crust);
+
+	--boxshadow-border: 0.1rem solid var(--ctp-macchiato-mantle);
+}
+
+.profile .profile-header {
+	border: var(--box-shadow-border);
+}
+
+.profile .profile-header .basic-info .namerole .role {
+	border: var(--box-shadow-border);
+}
+
+.profile .col-header {
+	border: var(--boxshadow-border);
+}
+
+.profile .about-user .col-header {
+	margin-bottom: initial;
+	border-bottom: none;
+	border-top: var(--boxshadow-border);
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .fields {
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .fields .field {
+	border-bottom: 0.1rem solid var(--ctp-macchiato-mantle);
+}
+
+.profile .about-user .fields .field:first-child {
+	border-top: 0.1rem solid var(--ctp-macchiato-mantle);
+}
+
+.profile .about-user .bio {
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.profile .about-user .accountstats {
+	border-top: 1px solid var(--ctp-macchiato-mantle);
+	border-bottom: var(--boxshadow-border);
+	border-left: var(--boxshadow-border);
+	border-right: var(--boxshadow-border);
+}
+
+.status .media .media-wrapper {
+	border: 0.1rem solid var(--ctp-macchiato-mantle);
+}
+.status .media .media-wrapper details .unknown-attachment .placeholder {
+	color: var(--ctp-macchiato-crust);
+}
