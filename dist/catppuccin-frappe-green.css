@@ -25,7 +25,7 @@
 	--status-bg: var(--ctp-frappe-surface1);
 	--status-focus-bg: var(--ctp-frappe-surface1);
 	--status-info-bg: var(--ctp-frappe-surface2);
-	--status-focus-ingo-bg: var(--ctp-frappe-surface2);
+	--status-focus-info-bg: var(--ctp-frappe-surface2);
 
 	--button-fg: var(--ctp-frappe-crust);
 

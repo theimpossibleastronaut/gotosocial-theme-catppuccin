@@ -25,7 +25,7 @@
 	--status-bg: var(--ctp-{{THEME}}-surface1);
 	--status-focus-bg: var(--ctp-{{THEME}}-surface1);
 	--status-info-bg: var(--ctp-{{THEME}}-surface2);
-	--status-focus-ingo-bg: var(--ctp-{{THEME}}-surface2);
+	--status-focus-info-bg: var(--ctp-{{THEME}}-surface2);
 
 	--button-fg: var(--ctp-{{THEME}}-crust);
 
